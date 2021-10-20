@@ -1,12 +1,37 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import './App.css';
 import Chat from './components/Chat';
+import { auth } from './components/firebase';
+import Login from './components/Login';
 import Sidebar from './components/Sidebar';
 import { selectUser, SelectUser } from "./features/userSlice"
+import { login, logout } from "./features/userSlice"
+
 
 function App() {
   const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    auth.onAuthStateChanged((authUser) => {
+        if (authUser) {
+          // user logged in 
+          // console.log("user is", authUser)
+          dispatch(
+            login({
+              uid: authUser.uid,
+              photo: authUser.photoURL,
+              email: authUser.email,
+              displayName: authUser.displayName
+          }))
+        }
+        else{
+          // user logged out
+          dispatch(logout());
+        }
+    })
+  }, [dispatch]);
 
   return (
     <div className="app">
@@ -17,7 +42,7 @@ function App() {
           <Chat/> 
         </>
       ): (
-          <h2>You need to login!</h2>
+          <Login/>
       )}
       
       

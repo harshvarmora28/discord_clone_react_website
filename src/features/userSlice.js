@@ -26,7 +26,7 @@ export const userSlice = createSlice({
   // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     login: (state, action) => {
-      state.user += action.payload;
+      state.user = action.payload;
     },
     logout: (state) => {
       state.user = null;
@@ -48,7 +48,7 @@ export const userSlice = createSlice({
       })
       .addCase(incrementAsync.fulfilled, (state, action) => {
         state.status = 'idle';
-        state.value += action.payload;
+        state.value = action.payload;
       });
   },
 });
