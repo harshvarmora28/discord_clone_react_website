@@ -73,6 +73,11 @@
 }
 .sidebar__voiceIcons .MuiSvgIcon-root{
     padding: 7px;
+    cursor: pointer;
+}
+.sidebar__voiceIcons .MuiSvgIcon-root:hover{
+    background-color: rgba(66, 66, 66, 0.589);
+    border-radius: 6px;
 }
 .sidebar__profileInfo{
     flex: 1;
@@ -91,5 +96,10 @@
 }
 .sidebar__profileIcons .MuiSvgIcon-root{
     padding: 7px;
+    cursor: pointer;
+}
+.sidebar__profileIcons .MuiSvgIcon-root:hover{
+    background-color: rgba(66, 66, 66, 0.589);
+    border-radius: 6px;
 }
 
