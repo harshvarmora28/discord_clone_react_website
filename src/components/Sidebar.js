@@ -59,7 +59,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="sidebar__voice">
-                <SignalCellularAltIcon className="sidebar__voiceIcon" fontSize="large"/>
+                <SignalCellularAltIcon className="sidebar__voiceIcon" fontSize="medium"/>
                 <div className="sidebar__voiceInfo">
                     <h3>Voice Connected</h3>
                     <p>Stream</p>
@@ -79,8 +79,8 @@ const Sidebar = () => {
                 </div>
                 <div className="sidebar__profileIcons">
                 <MicIcon/>
-                <SettingsIcon/>
                 <HeadsetIcon/>
+                <SettingsIcon/>
                 </div>
             </div>
         </div>

@@ -58,7 +58,7 @@ const Chat = () => {
       </div>
 
       <div className="chat__input">
-        <AddCircleIcon fontSize="large" />
+        <AddCircleIcon fontSize="medium" />
         <form>
           <input
             disabled={!channelId}
@@ -72,9 +72,9 @@ const Chat = () => {
         </form>
 
         <div className="chat__inputIcons">
-          <CardGiftcardIcon fontSize="large" />
-          <GifIcon fontSize="large" />
-          <EmojiEmotionsIcon fontSize="large" />
+          <CardGiftcardIcon fontSize="medium" />
+          <GifIcon fontSize="medium" />
+          <EmojiEmotionsIcon fontSize="medium" />
         </div>
       </div>
     </div>
