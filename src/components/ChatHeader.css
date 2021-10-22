@@ -3,17 +3,22 @@
     justify-content: space-between;
     align-items: center;
     color: gray;
-    padding: 10px;
+    padding: 2px;
+    border-bottom: 2px solid rgba(43, 43, 43, 0.685);
+    
 }
 .chatHeader__hash{
     color: gray;
-    font-size: 30px;
-    padding: 10px;
+    margin-left: 12px;
+    margin-right: 2px;
+    font-size: 31px;
+    padding: 7.5px;
 }
 .chatHeader__left h3{
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(243, 243, 243);
+    font-weight: 600;
 }
 .chatHeader__right{
     display: flex;
@@ -22,19 +27,23 @@
     justify-content: space-between;
 }
 .chatHeader__right .MuiSvgIcon-root{
+    color: rgb(179, 179, 179);
     padding: 5px;
     cursor: pointer;
 }
 .chatHeader__right .MuiSvgIcon-root:hover{
-    color: white;
+    color: rgb(224, 224, 224);
 }
 .chatHeader__search{
     display: flex;
     align-items: center;
-    color: gray;
-    background-color: #2f3135;
-    border-radius: 3px;
+    color: rgb(165, 165, 165);
+    background-color: #242527;
+    border-radius: 5px;
     padding: 3px;
+    padding-left: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .chatHeader__search input{
     background: transparent;

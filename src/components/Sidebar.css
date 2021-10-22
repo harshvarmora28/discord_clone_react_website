@@ -9,10 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 18px;
     background-color: #2f3135;
-    color: white;
-    border-bottom: 3px solid #26282c;
+    color: rgb(243, 243, 243);
+    border-bottom: 2px solid #26282c;
+    cursor: pointer;
+}
+.sidebar__top h3{
+    font-weight: 500;
 }
 .sidebar__channels{
     flex: 1;
