@@ -40,17 +40,18 @@
 .chatHeader__search{
     display: flex;
     align-items: center;
-    color: rgb(165, 165, 165);
+    color: rgb(192, 192, 192);
     background-color: #242527;
     border-radius: 5px;
-    padding: 3px;
     padding-left: 7px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-family: "whitney";
 }
 .chatHeader__search input{
     background: transparent;
     outline-width: 0;
-    color: white;
+    color: rgb(226, 226, 226);
     border: none;
+    font-family: "whitney";
 }
