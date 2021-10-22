@@ -4,11 +4,23 @@
     padding: 20px;
     color: white;
 }
+.message__info h4{
+    font-family: "whitney medium";
+    font-weight: 500;
+    color: rgb(245, 245, 245);
+}
 .message__info{
     margin-left: 20px;
+}
+.message__info p{
+    font-family: "whitney book";
+    font-weight: 500;
+    color: rgb(209, 209, 209);
+    margin-top: 1px;
 }
 .message__timestamp {
     color: gray;
     margin-left: 20px;
     font-size: x-small;
+    font-family: "whitney";
 }

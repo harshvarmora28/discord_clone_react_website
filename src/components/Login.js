@@ -18,6 +18,8 @@ const Login = () => {
             <div className="login__logo">
                 <img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-branding-2.png" alt="" />
             </div>
+            <h2>CLONE</h2>
+            <h3>By Harsh Creations</h3>
 
             <Button onClick={signIn}>Sign In</Button>
         </div>

@@ -47,10 +47,10 @@ const Sidebar = () => {
             <div className="sidebar__channels">
                 <div className="sidebar__channelsHeader">
                     <div className="sidebar__header">
-                    <ExpandMoreIcon/>
-                    <h4>Text Channels</h4>
+                    <ExpandMoreIcon fontSize="small"/>
+                    <h4>TEXT CHANNELS</h4>
                     </div>
-                    <AddIcon onClick={handleAddChannel} className="sidebar__addChannel"/>
+                    <AddIcon onClick={handleAddChannel} fontSize="small" className="sidebar__addChannel"/>
                 </div>
                 <div className="sidebar__channelsList">
                 {channels.map(({ id, channel }) => (

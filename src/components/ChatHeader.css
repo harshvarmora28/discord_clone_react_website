@@ -8,17 +8,20 @@
     
 }
 .chatHeader__hash{
-    color: gray;
+    color: rgb(121, 121, 121);
     margin-left: 12px;
     margin-right: 2px;
     font-size: 31px;
-    padding: 7.5px;
+    padding: 10.3px;
+    font-family: 'whitney';
+    font-weight: 400;
 }
 .chatHeader__left h3{
     display: flex;
     align-items: center;
     color: rgb(243, 243, 243);
-    font-weight: 600;
+    font-weight: 500;
+    font-family: 'whitney medium';
 }
 .chatHeader__right{
     display: flex;
