@@ -1,4 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+
+# Discord Clone   
+
+👉 https://discord-clone-harshcreations.web.app/
+
+
+## Authors
+
+- [@harshvarmora28](https://www.github.com/harshvarmora28)
+
+
+## Key Features
+
+- You can chat here! Everything will be saved in our data-base
+- You can login with your Google Account
+- You can create new Text Channel by clicking "+" icon alongside "TEXT-CHANNELS" title
+- You can logout anytime by clicking your "Profile Picture" in the bottom left corner
+
+
+## Technologies Used
+
+- React-redux
+- Nodejs
+- Firebase
+
+
+## Purpose
+
+This app is just made for Learning(Practice) purpose
+
+  
+## Feedback
+
+If you have any feedback, please reach out to us at dudeuseful@gmail.com
+
 
 ## Available Scripts
 
